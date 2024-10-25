@@ -17,9 +17,6 @@ set history=1000
 set smarttab
 set shiftround
 set termbidi
-" set cursorline
-set mouse=a
-set mousemodel=popup_setpos
 colorscheme default
 syntax on
 
@@ -43,6 +40,6 @@ highlight BadWhitespace ctermbg=red guibg=black
  xnoremap <Space>p "_dP
 
  " Yank into the system clipboard
- nnoremap <Space>yy "+y
+ nnoremap <Space>yy "+yy
  vnoremap <Space>y "+y
  vnoremap <Space>Y "+Y
