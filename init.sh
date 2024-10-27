@@ -2,7 +2,7 @@
 
 exe() { echo "\$ ${@/eval/}" ; "$@" ; }
 
-exe sudo pacman -S tmux bat telegram-desktop firefox docker vim yay ripgrep tree
+exe sudo pacman -S tmux bat telegram-desktop firefox docker vim yay ripgrep tree meld
 
 exe ln -v ./.vimrc ~/
 
