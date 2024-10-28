@@ -1,0 +1,10 @@
+[core]
+	editor = vim
+	pager = delta
+[pager]
+	branch = false
+  log = false
+  diff = true
+	reflog = false
+[interactive]
+	diffFilter = delta --color-only
