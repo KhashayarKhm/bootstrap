@@ -8,6 +8,8 @@ exe ln -v ./.vimrc ~/
 
 exe ln -v ./.tmux.conf ~/
 
+exe ln -v ./.gitconfig ~/
+
 exe yay -S nekoray-bin sing-geoip-db sing-geoip-rule-set sing-geosite-db sing-geosite-rule-set
 
 exe curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
